@@ -1,0 +1,12 @@
+các bước đẩy 1 thư mục dự án lên trên github
+b1: tạo ra một remote repository bên trên github
+b2: tạo ra một local repository trên máy
+    + git init: khởi tạo một repository ngay tại thư mục đó
+    + git remote add origin + url remote repo : dùng để kết nối local repository với remote repository
+        vd: git remote add origin https://github.com/qdwesds/BC48_demogit.git
+b3: đẩy các đoạn code lên trên gituhb luư trữ bằng 3 bước thần thánh 
+    + lệnh git add dùng để đẩy các file có sự thay đổi lên staging area
+        - git add +tên file dùng để đẩy các file lên khu vực staging area
+        - git status sẽ giúp chúng ta kiểm tra các file đang nằm trong khu vực staging area
+        - git reset sẽ giúp chúng ta trả về trạng thái ban đầu chưa đưa lên staging area
+        - git add . sẽ giúp đẩy tất cả các file có sự thay đổi lên khu vực staging area

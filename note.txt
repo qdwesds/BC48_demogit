@@ -29,3 +29,5 @@ B2: đẩy những sự thay đổi lên staging area, sau đó tạo commit và
 Merge nhánh: khi Merge nhánh cần xác định xem nhánh nào cần lấy code vào bên trong
 trước tiên mình xác định sẽ lấy tất cả code từ nhánh devKhai bỏ vào nhánh main
 đi tới ngay nhánh sẽ đc thêm code vào và chạy lệnh git merge tenNhanhDuocMergeVao
+
+Ở đây mình text lệnh git merge lần thứ 2

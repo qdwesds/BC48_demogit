@@ -24,3 +24,8 @@ lệnh để xóa nhánh: git branch -D tenNhanh
 Thực hành tạo nhánh và đẩy nhánh đó lên trên remote repository
 B1: tạo nhánh và chuyển sang nhánh đó
 B2: đẩy những sự thay đổi lên staging area, sau đó tạo commit và dùng lệnh git push -u origin tenNhanhMoi vì nhánh này lần đầu đẩy lên remote repository
+
+
+Merge nhánh: khi Merge nhánh cần xác định xem nhánh nào cần lấy code vào bên trong
+trước tiên mình xác định sẽ lấy tất cả code từ nhánh devKhai bỏ vào nhánh main
+đi tới ngay nhánh sẽ đc thêm code vào và chạy lệnh git merge tenNhanhDuocMergeVao

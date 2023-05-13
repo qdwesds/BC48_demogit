@@ -18,3 +18,9 @@ vd tạo một nhánh có tên devKhai
 lệnh để kiểm tra git đã tạo: git branch
 lệnh để chuyển sang một nhánh khác: git checkout tenNhanh
 khi chúng ta có một số sự thay đổi code bên trong một nhánh, khi chuyển qua một nhánh mới cần phải thực hiện 2 lệnh, git add . để đẩy tất cả file thay đổi lên staging area và sau đó cần chạy lệnh git commit -m để ghi lại phiên bản code đã thay đổi
+lệnh tạo ra một nhánh và chuyển tới nhánh đó: git checkout -b tenNhanh
+lệnh để xóa nhánh: git branch -D tenNhanh
+
+Thực hành tạo nhánh và đẩy nhánh đó lên trên remote repository
+B1: tạo nhánh và chuyển sang nhánh đó
+B2: đẩy những sự thay đổi lên staging area, sau đó tạo commit và dùng lệnh git push -u origin tenNhanhMoi vì nhánh này lần đầu đẩy lên remote repository

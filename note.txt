@@ -10,3 +10,20 @@ b3: đẩy các đoạn code lên trên gituhb luư trữ bằng 3 bước thầ
         - git status sẽ giúp chúng ta kiểm tra các file đang nằm trong khu vực staging area
         - git reset sẽ giúp chúng ta trả về trạng thái ban đầu chưa đưa lên staging area
         - git add . sẽ giúp đẩy tất cả các file có sự thay đổi lên khu vực staging area
+
+        Tạo nhánh (Branch)
+    Lệnh tạo nhánh: "git branch + tên nhánh"
+    lệnh để kiểm tra nhánh đã tạo: "git branch"
+    Lệnh để chuyển sang nhánh khác: "git checkout + tên nhánh"
+    lưu ý: khi chúg ta có một số sự thay đổi code trên một nhánh.
+    khi chuyển qua 1 nhánh mới cần thực hiện 2 lệnh: "git add ." để đẩy tất cả các file thay đổi 
+    trên staging area và sau đs mìh cần chạy lệnh git commit -m "messenger" để ghi lại phiên bản
+    code đã thay đổi tại nhánh đó.
+
+    lệnh tạo ra 1 nhánh và chuyển đến nhánh đó: git checkout -b +tên nhánh
+
+    lệnh xóa nhánh: git branch -d tên nhánh
+
+    thực hành tạo và đẩy nhánh lên trên remote repository
+    b1: Tạo và chuyển nhánh đó
+    b2: đẩy những sự thay đổi lên staging Area, sau đó tạo commit và dùg lệnh git push -u origin + tenhanhmoi vì nhánh này lần đầu đẩy lên remote repository
